@@ -52,6 +52,9 @@
     
 }
 
+- (UIView*)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
+    return nil;
+}
 
 - (void)drawRect:(CGRect)rect
 {
